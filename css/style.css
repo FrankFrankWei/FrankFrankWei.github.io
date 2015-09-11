@@ -263,6 +263,8 @@ body {
   -webkit-background-size: 165px 60px;
   -moz-background-size: 165px 60px;
   background-size: 165px 60px;
+  -webkit-border-radius: 155px;
+  border-radius: 155px;
 }
 .main-body {
   margin-top: -60px;
