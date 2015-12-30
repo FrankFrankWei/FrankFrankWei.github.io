@@ -4,7 +4,7 @@
   
   <link href="/atom.xml" rel="self"/>
   <link href="http://frankfrankwei.github.io/"/>
-  <updated>2015-09-15T03:27:27.393Z</updated>
+  <updated>2015-12-30T07:16:54.499Z</updated>
   <id>http://frankfrankwei.github.io/</id>
   
   <author>
@@ -15,204 +15,78 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Hello World]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/15/hello-world/"/>
-    <id>http://frankfrankwei.github.io/2015/09/15/hello-world/</id>
-    <published>2015-09-15T03:27:27.393Z</published>
-    <updated>2015-09-15T03:27:27.393Z</updated>
-    <content type="html"><![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="http://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick_Start">Quick Start</h2><h3 id="Create_a_new_post">Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run_server">Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate_static_files">Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy_to_remote_sites">Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="http://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>Welcome to <a href="http://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="http://hexo.io]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[暗恋]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/14/%E6%9A%97%E6%81%8B/"/>
-    <id>http://frankfrankwei.github.io/2015/09/14/暗恋/</id>
-    <published>2015-09-14T02:44:30.000Z</published>
-    <updated>2015-09-14T02:45:12.879Z</updated>
-    <content type="html"><![CDATA[<h1 id="单恋一枝花">单恋一枝花</h1>]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="单恋一枝花">单恋一枝花</h1>]]>
-    </summary>
-    
-      <category term="生活" scheme="http://frankfrankwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[挚爱]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/14/%E6%8C%9A%E7%88%B1/"/>
-    <id>http://frankfrankwei.github.io/2015/09/14/挚爱/</id>
-    <published>2015-09-14T02:42:56.000Z</published>
-    <updated>2015-09-14T02:45:23.666Z</updated>
-    <content type="html"><![CDATA[<h1 id="这就是爱">这就是爱</h1><blockquote>
-<p>说也说不清楚<br>糊里又糊涂</p>
+    <title><![CDATA[CentOS 6.3入门使用]]></title>
+    <link href="http://frankfrankwei.github.io/2015/12/30/CentOS%206.3%E5%85%A5%E9%97%A8%E4%BD%BF%E7%94%A8/"/>
+    <id>http://frankfrankwei.github.io/2015/12/30/CentOS 6.3入门使用/</id>
+    <published>2015-12-30T07:16:54.499Z</published>
+    <updated>2015-12-30T07:16:54.499Z</updated>
+    <content type="html"><![CDATA[<h5 id="前言">前言</h5><blockquote>
+<p>　　上大学时在学校机房的电脑上用过Linux系统，具体的发行版忘记了，对于习惯了Windows的我来说，那时对没有娱乐功能的Linux实在是无感，也没学到什么，完全是混过考试。<br>　　最近在折腾<em>nodejs</em>，学习的过程中发现如socket.io，redis对Windows的支持不好，就起了装个Linux系统的念头，最终装了CentOS 6.3（下文不再重复版本号）。只需要知道CentOS是Linux系统的一个发行版就行了，最新版本为CentOS 7。其实选择哪个发行版，哪个版本对于我们这些初学者来说都是差不多，不必纠结，因为都少不了不停地上网查资料，使用Linux就注定少了不折腾，重点只是你想折腾到什么程度而已。凭个人喜好选择较新的版本就好，因为他们都是大同小异的，一通则百通。当然，如果你想跟着本文无痛操作的话，那么CentOS 6.3是最好的选择。<br>　　慕名去看了<a href="http://vbird.dic.ksu.edu.tw/" target="_blank" rel="external">《鸟哥的Linux私房菜》</a>，讲解得很通俗易懂且详细，然而一个问题蹦出脑海：“我需要把这些都学会了才能在Linux下编程？“。 即使我把整本书看完，用不到的知识分分钟也会忘掉，这显然是事倍功半的做法，索性卷起袖子just do it，实践中学习，遇到问题google解决就是了。<br>　　本文记录的是我初学使用CentOS的主要步骤，相信你看完后也肯定可以掌握它的基本使用，剩下的事情就是不停的使用，利用搜索引擎解决遇到的问题。本文<strong>不含有高深的Linux相关知识</strong>，遇到问题我也是各种google参考解决，对于原理点到即止，不求甚解，毕竟现阶段我只是想在CentOS下安静地编程而已。 <img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-meinanzi.jpg" alt=""></p>
 </blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="这就是爱">这就是爱</h1><blockquote>
-<p>说也说不清楚<br>糊里又糊涂</p>
-</blockquote>
-]]>
-    </summary>
-    
-      <category term="生活" scheme="http://frankfrankwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[风景]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/14/%E9%A3%8E%E6%99%AF/"/>
-    <id>http://frankfrankwei.github.io/2015/09/14/风景/</id>
-    <published>2015-09-14T02:41:49.000Z</published>
-    <updated>2015-09-14T02:45:20.858Z</updated>
-    <content type="html"><![CDATA[<h1 id="风景这边独好">风景这边独好</h1>]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="风景这边独好">风景这边独好</h1>]]>
-    </summary>
-    
-      <category term="生活" scheme="http://frankfrankwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[music file]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/11/music-file/"/>
-    <id>http://frankfrankwei.github.io/2015/09/11/music-file/</id>
-    <published>2015-09-11T04:02:49.000Z</published>
-    <updated>2015-09-14T01:51:37.619Z</updated>
-    <content type="html"><![CDATA[<h1 id="THis_is_Music_File">THis is Music File</h1><p><img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-life-preview.jpg" alt=""><br>“敢问路在何方，那就是青藏高ao，ao，ao，ao 原~</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="THis_is_Music_File">THis is Music File</h1><p><img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-life-preview.jpg" alt=""><br>“敢问路]]>
-    </summary>
-    
-      <category term="音乐" scheme="http://frankfrankwei.github.io/categories/%E9%9F%B3%E4%B9%90/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[life post]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/11/life-post/"/>
-    <id>http://frankfrankwei.github.io/2015/09/11/life-post/</id>
-    <published>2015-09-11T03:42:15.000Z</published>
-    <updated>2015-09-14T02:37:58.034Z</updated>
-    <content type="html"><![CDATA[<h1 id="This_is_Life">This is Life</h1><p>I’m hungry, what about you?</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="This_is_Life">This is Life</h1><p>I’m hungry, what about you?</p>
-]]>
-    </summary>
-    
-      <category term="生活" scheme="http://frankfrankwei.github.io/categories/%E7%94%9F%E6%B4%BB/"/>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[my gallery]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/10/my-gallery/"/>
-    <id>http://frankfrankwei.github.io/2015/09/10/my-gallery/</id>
-    <published>2015-09-10T06:15:06.000Z</published>
-    <updated>2015-09-10T06:50:03.429Z</updated>
-    <content type="html"><![CDATA[<h2 id="this_is_photo_layout">this is photo layout</h2><blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
-<footer><strong>Seth Godin</strong><cite><a href="http://sethgodin.typepad.com/seths_blog/2009/07/welcome-to-island-marketing.html" target="_blank" rel="external">Welcome to Island Marketing</a></cite></footer></blockquote>
-<figure class="highlight objc"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[rectangle setX: <span class="number">10</span> y: <span class="number">10</span> width: <span class="number">20</span> height: <span class="number">20</span>];</span><br></pre></td></tr></table></figure>]]></content>
-    <summary type="html">
-    <![CDATA[<h2 id="this_is_photo_layout">this is photo layout</h2><blockquote><p>Every interaction is both precious and an opportunity to delight.</p>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[草稿测试一]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/10/first-draft-post/"/>
-    <id>http://frankfrankwei.github.io/2015/09/10/first-draft-post/</id>
-    <published>2015-09-10T06:11:24.000Z</published>
-    <updated>2015-09-10T06:11:24.813Z</updated>
-    <content type="html"><![CDATA[<h1 id="这是一条神奇的天路呀~欧耶~">这是一条神奇的天路呀~欧耶~</h1><blockquote>
-<p>带我们走进人间天堂</p>
-</blockquote>
-]]></content>
-    <summary type="html">
-    <![CDATA[<h1 id="这是一条神奇的天路呀~欧耶~">这是一条神奇的天路呀~欧耶~</h1><blockquote>
-<p>带我们走进人间天堂</p>
-</blockquote>
-]]>
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[post again]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/10/post-again/"/>
-    <id>http://frankfrankwei.github.io/2015/09/10/post-again/</id>
-    <published>2015-09-10T05:39:49.000Z</published>
-    <updated>2015-09-10T05:39:49.179Z</updated>
-    <content type="html"></content>
-    <summary type="html">
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[第二篇测试文章]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/09/second-post/"/>
-    <id>http://frankfrankwei.github.io/2015/09/09/second-post/</id>
-    <published>2015-09-09T08:01:25.000Z</published>
-    <updated>2015-09-09T08:38:47.693Z</updated>
-    <content type="html"><![CDATA[<p>##<em>Python</em></p>
-<p>python代码</p>
-<a id="more"></a>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> urllib</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">Add</span><span class="params">()</span>:</span></span><br><span class="line">	a = <span class="number">0</span></span><br><span class="line">	b = <span class="number">1</span></span><br><span class="line">	<span class="keyword">return</span> a + b</span><br></pre></td></tr></table></figure>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p>##<em>Python</em></p>
-<p>python代码</p>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Hexo初体验]]></title>
-    <link href="http://frankfrankwei.github.io/2015/09/09/my-new-post/"/>
-    <id>http://frankfrankwei.github.io/2015/09/09/my-new-post/</id>
-    <published>2015-09-09T07:40:35.000Z</published>
-    <updated>2015-09-09T07:46:12.922Z</updated>
-    <content type="html"><![CDATA[<p>#Frank New To Hexo</p>
-<p>这是我的测试文章，使用<code>MarkDown</code>语法</p>
+<h3 id="0、虚拟机安装CentOS">0、虚拟机安装CentOS</h3><p>找到CentOS的dvd盘安装，一般会有dvd1和dvd2两个盘，dvd1是系统和一些 软件包，dvd2还有些别的软件包，我是不知道dvd2有什么软件包的，用dvd1进行系统安装即可，毕竟需要啥软件，之后自己也可以装，反正虚拟机，使劲折腾!安装的过程请自行搜索。需要注意几点：记住你的<em>root</em>密码；由于是编程学习使用，安装过程中语言选择英文，便于出问题时google；选择Desktop安装桌面系统。</p>
 <blockquote>
-<p>Note<br>-第一点<br>-第二点</p>
+<p>编程中遇到的很多问题用中文在百度搜索是很难找到解决办法的，用英文在google则容易很多。这是个人经验，仅供参考。</p>
 </blockquote>
-<p>代码段</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">Add</span>(<span class="params">a, b</span>):</span><br><span class="line">	<span class="title">return</span> <span class="title">a</span> + <span class="title">b</span>;</span></span><br></pre></td></tr></table></figure>]]></content>
-    <summary type="html">
-    <![CDATA[<p>#Frank New To Hexo</p>
-<p>这是我的测试文章，使用<code>MarkDown</code>语法</p>
+<h3 id="1、一些准备：Terminal、vi、root和su">1、一些准备：Terminal、vi、root和su</h3><p>点击桌面左上角<code>Applications -&gt; System Tools -&gt; Terminal</code>进入命令行模式，通过命令可以直接进行人机交互。</p>
+<hr>
+<p><strong>vi</strong>是Linux/Unix下标配的一个纯字符界面的文本编辑器，不支持鼠标功能，也没有图形界面，相关的操作都要通过键盘指令来完成，需要记忆大量命令才能够熟练使用。然而基本的使用只需要几个命令即可，我目前也就会这几个命令，至少增删改是完全没有问题的。<br><strong>vi</strong>分两种工作模式：<em>编辑模式</em>和<em>命令模式</em>。<br>使用<strong>vi</strong>修改文件跟把大象关冰箱是一样一样的，分三步：<br>第一步：通过<code>vi</code>命令打开文件：<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi filename</span><br></pre></td></tr></table></figure></p>
+<p>此时进入命令模式，并显示文件内容；</p>
+<p>第二步：按<code>i</code>键进入编辑模式，此时在界面左下角会显示 <code>- - INSERT - -</code>字样，通过上下左右键移动光标，并敲击键盘随意输入。输入完成后按<code>Esc</code>返回命令模式；</p>
+<p>第三步：输入<code>:wq</code>回车即完成保存修改并退出vi环境返回命令行界面。<br><code>:w</code>：保存修改<br><code>:q</code>：退出vi<br><code>:wq</code>：保存修改并退出<br><code>:wq!</code>：强制保存修改并退出<br><code>:q!</code>：强制退出不保存修改</p>
+<p>​    <strong>vi</strong>是功能十分强大的编辑器，网上有很多分享，更多命令可以自行搜索或参考<a href="http://www.computerhope.com/unix/uvi.htm" target="_blank" rel="external">Linux and Unix vi command</a></p>
+<hr>
 <blockquote>
-<p>Note<br>-第一点<br>-第二点</p>
+<p><em>root</em>是Linux或其他类Unix操作系统中默认的具有所有命令和文件权限的用户的名称 。<br>　　　　　　　　　　　　　　　　　　　　　　　　　　—   <a href="www.linfo.org/root.html">Root Definition</a></p>
 </blockquote>
-<p>代码段</p>
-<figur]]>
+<p>由于<em>root</em>可以对操作系统进行<strong>任何</strong>操作，出于安全考虑，日常的操作建议以一般身份用户来进行，在需要进行如设置系统环境变量等系统级操作时，再切换到<em>root</em>进行。</p>
+<p><em>su</em>是Linux中一个身份切换命令，它可以进行任何身份的切换。<code>su -</code>是可以切换到<em>root</em>的命令，在<em>Terminal</em>输入该命令会提示输入<em>root</em>密码，正确输入则会切换到<em>root</em>。一般用户和<em>root</em>可以在<em>Terminal</em>通过命令提示符区别开，这是我<em>Terminal</em>里的输入和输出：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">[frankguest@frank ~]$ <span class="built_in">pwd</span></span><br><span class="line">/home/frankguest</span><br><span class="line">[frankguest@frank ~]$ su -</span><br><span class="line">Password:</span><br><span class="line">[root@frank ~]<span class="comment"># pwd</span></span><br><span class="line">/root</span><br><span class="line">[root@frank ~]<span class="comment"># exit</span></span><br><span class="line"><span class="built_in">logout</span></span><br><span class="line">[frankguest@frank ~]$ <span class="built_in">pwd</span></span><br><span class="line">/home/frankguest</span><br><span class="line">[frankguest@frank ~]$</span><br></pre></td></tr></table></figure>
+<p>可以看到一般用户<em>frankguest</em>的命令提示符是<code>$</code>，<em>root</em>的命令提示符是<code>#</code>，通过<em>pwd</em>打印当前工作目录也证明了这点，<em>exit</em>是从<em>root</em>退出，离开su环境。</p>
+<h3 id="2、第一件事">2、第一件事</h3><p>装完了系统，第一件事是啥？Of course 上网！我使用NAT上网的方式，<code>VM -&gt; Settings -&gt; Hardware -&gt; Network Adapter</code><br><img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-NAT.png" alt=""></p>
+<p>正如图片上NAT的解释：虚拟机共享宿主的ip地址。简单地说，就是虚拟机借助NAT(网络地址转换)功能，通过宿主机器所在的网络来访问公网，需要注意的是此模式下公网主机是无法直接访问到虚拟机的。</p>
+<p>配置好网络模式后需要启动网卡才能连上网络，点击左上角<code>Applications -&gt; System Tools -&gt; Terminal</code> ，输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">su -</span><br></pre></td></tr></table></figure></p>
+<p>输入密码切换到root用户（输入密码时Terminal是不会有任何显示的，不要怀疑自己的键盘，继续输入即可），然后<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/sysconfig/network-scripts/ifcfg-eth0</span><br></pre></td></tr></table></figure></p>
+<p>将<strong>ONBOOT=”no”</strong>修改为<strong>ONBOOT=”yes”</strong>，保存并退出。<br>最后<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ifconfig eth0 up</span><br></pre></td></tr></table></figure></p>
+<p>完成。</p>
+<h3 id="3、浏览器和输入法">3、浏览器和输入法</h3><p>网络配置好了，自然想打开浏览器，CentOS自带FireFox浏览器[^chrome]，有了网络和浏览器，我们就可以愉快地玩耍了。在愉快地玩耍之前，还需要中文输入法，配置也很简单：</p>
+<ul>
+<li><p>打开<em>Terminal</em>并切换到<em>root</em>，输入</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">yum install <span class="string">"@Chinese Support"</span></span><br></pre></td></tr></table></figure>
+<p>看到下载提示后输入<code>y</code>即可</p>
+</li>
+<li><p>打开<code>System -&gt; Preferences -&gt; Input Method</code> ，如图配置即可：</p>
+<p><img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-inputmethod.png" alt=""></p>
+</li>
+</ul>
+<h3 id="4、Sublime的安装以及环境变量的添加">4、Sublime的安装以及环境变量的添加</h3><p>我使用<a href="http://www.sublimetext.com/" target="_blank" rel="external">Sublime</a>进行nodejs编程，官网下载Linux版本的压缩包，会得到一个*.tar.bz2的压缩文件，命令模式进入压缩包所在目录，用tar解压<br><figure class="highlight stylus"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xjvf filename<span class="class">.tar</span><span class="class">.bz2</span></span><br></pre></td></tr></table></figure></p>
+<p>以我的为例，压缩包放在<em>Soft</em>文件夹下<br><img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-sublime1.png" alt=""><br>解压出文件夹<code>sublime_text_3</code>，<code>ls</code>命令列出文件夹下的文件可以看到有名字为<em>sublime_text</em>的文件，高亮为绿色表明它是可执行文件，在<em>Terminal</em>输入<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sublime_text</span><br></pre></td></tr></table></figure></p>
+<p>即打开Sublime。</p>
+<p>然而每次都要进入这个文件夹来执行<code>sublime_text</code>才能打开Sublime，我们不禁会想，如果我们可以在任何地方都能打开它该多好！某问题！将此文件夹路径加入环境变量即可。</p>
+<p>打开<em>Terminal</em>切换到<em>root</em><br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">vi /etc/profile</span><br></pre></td></tr></table></figure></p>
+<p><img src="http://7xlpnu.com1.z0.glb.clouddn.com/blog-systempath.png" alt=""></p>
+<p>找到图中红色标记行，以途中的格式在该行下添加你想加入环境变量的路径就好了。</p>
+<p>“我还有需求，sublime_text太长了，敲起来不方便，能不能弄短一些？“ 答案是肯定是，我们完全可以创建一个<em>sublime_text</em>的快捷方式，进入它所在的文件夹<br><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ln <span class="operator">-s</span> sublime_text sublime</span><br></pre></td></tr></table></figure></p>
+<p>现在，你就可以在<em>Terminal</em>的任意地方执行<code>sublime</code>直接打开Sublime了。</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">tar xzvf file.gz</span><br><span class="line">tar xjvf file.bz2</span><br></pre></td></tr></table></figure>
+<h3 id="5、nodejs的安装">5、nodejs的安装</h3><p>跟Sublime的安装是一样的，唯一的区别就是nodejs官网下载的安装包是tar.gz格式，解压命令为：</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xzvf filename.tar.gz</span><br></pre></td></tr></table></figure>
+<hr>
+<h4 id="一些补充：">一些补充：</h4><ul>
+<li><a href="http://vbird.dic.ksu.edu.tw/linux_basic/0220filemanager_1.php" target="_blank" rel="external">linux的文件目录结构</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Yellowdog_Updater,_Modified" target="_blank" rel="external">yum</a></li>
+<li>浏览器版本较低，你可以尝试升级</li>
+</ul>
+<p>[^chrome]: 俺尝试过安装chrome，几经折腾也没成功，后来查到资料说chrome已经不支持CentOS 6.x版本了；俺也试过在CentOS 7 中安装，虽然网上有教程说可以安装，可俺同样没有成功，索性也就先放到一边了。FireFox也很好用。</p>
+<h5 id="后语">后语</h5><p>Linux博大精深，它是开发者写给开发者使用的系统，因此它可以给使用者最高的权限，因为它相信使用者知道自己在做什么。“我相信你。”是Linux的精神，而这种精神也会鞭笞我们这些使用它的人上下求索，不愿辱命。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<h5 id="前言">前言</h5><blockquote>
+<p>　　上大学时在学校机房的电脑上用过Linux系统，具体的发行版忘记了，对于习惯了Windows的我来说，那时对没有娱乐功能的Linux实在是无感，也没学到什么，完全是混过考试。<br>　　最近在折腾<em>no]]>
     </summary>
     
-      <category term="Hexo" scheme="http://frankfrankwei.github.io/tags/Hexo/"/>
+      <category term="linux, centos, 入门" scheme="http://frankfrankwei.github.io/tags/linux-centos-%E5%85%A5%E9%97%A8/"/>
     
-      <category term="博客" scheme="http://frankfrankwei.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+      <category term="Linux" scheme="http://frankfrankwei.github.io/categories/Linux/"/>
     
   </entry>
   
